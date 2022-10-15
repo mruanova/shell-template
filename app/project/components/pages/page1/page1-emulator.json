@@ -1,4 +1,57 @@
 {
-  "cues": [],
-  "onStart": []
+  "cues": [
+    {
+      "type": "n",
+      "event": "101",
+      "trigger": "&change",
+      "actions": [
+        {
+          "type": "number",
+          "state": "101",
+          "logic": "link"
+        }
+      ]
+    },
+    {
+      "type": "n",
+      "event": "102",
+      "trigger": "&change",
+      "actions": [
+        {
+          "type": "number",
+          "state": "102",
+          "logic": "link"
+        }
+      ]
+    },
+    {
+      "type": "n",
+      "event": "103",
+      "trigger": "&change",
+      "actions": [
+        {
+          "type": "number",
+          "state": "103",
+          "logic": "link"
+        }
+      ]
+    }
+  ],
+  "onStart": [
+    {
+      "type": "number",
+      "state": "101",
+      "value": "255"
+    },
+    {
+      "type": "number",
+      "state": "102",
+      "value": "0"
+    },
+    {
+      "type": "number",
+      "state": "103",
+      "value": "125"
+    }
+  ]
 }

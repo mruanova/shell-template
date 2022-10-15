@@ -48,3 +48,11 @@ Run `yarn build:deploy` to deploy the project in TSW device.
 ## Deploy the project in one step
 
 Run `yarn build:onestep` to build, archive and deploy the project in one step.
+
+## Git Ignore
+.gitignore
+
+/node_modules
+
+## create pproject
+ch5-shell-cli create:project
