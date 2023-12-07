@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "faviconPath": "favicon.ico",
   "menuOrientation": "horizontal",
-  "selectedTheme": "light-theme",
+  "selectedTheme": "dark-theme",
   "useWebXPanel": true,
   "themes": [
     {

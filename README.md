@@ -54,5 +54,5 @@ Run `yarn build:onestep` to build, archive and deploy the project in one step.
 
 /node_modules
 
-## create pproject
+## How to create a CH5 shell-template project?
 ch5-shell-cli create:project
